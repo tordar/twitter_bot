@@ -29,6 +29,7 @@ for lines in text:
     count += 1
     print(f'line {count}: {lines}')
     pyautogui.moveTo(456, 268, 1)
+    # use print(pyautogui.position()) to find the exact position of the tweet field
     pyautogui.click()
     pyautogui.write(lines)
     pyautogui.hotkey('command', 'enter')
