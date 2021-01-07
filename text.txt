@@ -1,0 +1,7 @@
+Hello world
+
+This is a test document
+
+It will upload each line to Twitter, until there's no more lines
+
+Finish
